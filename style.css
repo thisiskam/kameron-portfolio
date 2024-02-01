@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    background-color: #EFF1F3;
+    font-family: roboto condensed;
+}
+
+nav {
+    position: fixed;
+    background-color: #D77A61;
+    width: 100%;
+    text-align: right;
+}
+
+header {
+    position: absolute;
+    margin-top: 50px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+section {
+    position: absolute;
+    margin-top: 150px;
+    padding: 10px;
+    text-align: center;
+}
+
+nav, a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #EFF1F3;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 6px;
+    background-color: #D77A61;
+}
+
+h1 {
+    color: #223843;
+}
+
+h2 {
+    color: #D8B4A0;
+}
