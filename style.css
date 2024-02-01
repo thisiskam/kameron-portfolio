@@ -1,29 +1,38 @@
 * {
     margin: 0px;
-    background-color: #EFF1F3;
     font-family: roboto condensed;
 }
 
 nav {
     position: fixed;
-    background-color: #D77A61;
+    background-color: #E76D83;
     width: 100%;
     text-align: right;
+    z-index: 2;
 }
 
 header {
     position: absolute;
-    margin-top: 50px;
-    padding: 10px;
+    margin-top: 38px;
     width: 100%;
+    height: 300px;
     text-align: center;
+    background-image: url('https://hypergr.am/wp-content/uploads/2022/06/web-development-2.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0;
+    z-index: 1;
 }
 
 section {
     position: absolute;
-    margin-top: 150px;
+    margin-top: 400px;
     padding: 10px;
     text-align: center;
+    width: 100%;
+    padding-top: 50px;
+    background-color: #EDF2F4 ;
+    padding-bottom: 500px;
 }
 
 nav, a {
@@ -37,13 +46,18 @@ a {
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 6px;
-    background-color: #D77A61;
+    background-color: #E76D83;
 }
 
 h1 {
-    color: #223843;
+    color: #61988E;
+    margin-top: 300px;
 }
 
 h2 {
-    color: #D8B4A0;
+    color: #EDF2F4;
+}
+
+h1, h2 {
+    background-color: #3F403F;
 }
