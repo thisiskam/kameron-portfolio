@@ -30,15 +30,10 @@ a {
 
 h1 {
     color: #61988E;
-    margin-top: 300px;
 }
 
 h2 {
     color: #EDF2F4;
-}
-
-h1, h2 {
-    background-color: #3F403F;
 }
 
 h3 {
@@ -54,52 +49,56 @@ p {
 /* MAIN PAGE STYLINGS */
 
 .mainhead {
-    position: absolute;
-    margin-top: 38px;
+    background-color: #3F403F;
+}
+
+.mainimage {
     width: 100%;
-    height: 300px;
-    text-align: center;
-    background-image: url('https://hypergr.am/wp-content/uploads/2022/06/web-development-2.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: 0;
-    z-index: 1;
+    max-height: 750px;
+}
+
+.title, h1,h2 {
+    background-color: #3F403F;
+}
+
+.title {
+    padding: 5px;
+    padding-left: 30px;
 }
 
 .homesection {
-    position: absolute;
-    margin-top: 400px;
     text-align: center;
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 100px;
+    font-size: 20px;
+    padding: 30px;
 }
 
 /* ABOUT PAGE STYLINGS */
 
 .aboutme {
     width: 100%;
-    margin: 10px;
+    margin: 30px;
     padding-top: 45px;
     height: 100%;
     color: #3F403F;
-    position: absolute;
+    position: absolute;;
 }
 
 .imageofme {
     width: 50%;
     position: relative;
     float: left;
-    margin-right: 15px;
     background-color: none;
     z-index: 1;
     max-width: 500px;
+    margin-right: 20px;
 }
 
 .mybio {
     position: relative;
     font-weight: 500;
     font-size: 20px;
+    width: 80%;
+    padding-top: 20px;
 }
 
 /* PORTFOLIO PAGE STYLES */
