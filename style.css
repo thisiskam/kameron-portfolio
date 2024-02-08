@@ -128,13 +128,45 @@ p {
 
 /* contact page stylings */
 
-.form-box {
+
+.contact-page-one {
     position: relative;
-    padding-top: 50px;
+    padding-top: 5em;
     display: flex;
-    justify-content: center;
+    justify-content: center;  
+}
+
+.form-box {
+    display: flex;
     flex-direction: column;
     align-items: center;
     color: #E76D83;
+    background-color: #3F403F;
+    padding: 2% 8% 2% 8%;
+    border-radius: 5%;
 }
 
+.form-element {
+    background-color: #3F403F;
+    color: #EFF1F3;
+    font-weight: 400;
+}
+
+h2.form-element {
+    text-decoration: underline overline;
+}
+
+h4.form-element {
+    font-style: oblique;
+}
+
+#submit-button {
+    background-color: #61988E;
+    color: #EFF1F3;
+    border-color: #61988E;
+}
+
+#submit-button:hover {
+    background-color: #1c564b;
+    border-color: #1c564b;
+}
