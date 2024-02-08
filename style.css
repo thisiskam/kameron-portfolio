@@ -3,9 +3,11 @@
 * {
     margin: 0px;
     font-family: roboto condensed;
-    background-color: #EFF1F3;
 }
 
+body {
+    background-color: #EDF2F4;
+}
 nav {
     position: fixed;
     background-color: #E76D83;
@@ -28,10 +30,6 @@ a {
     background-color: #E76D83;
 }
 
-h1 {
-    color: #61988E;
-}
-
 h2 {
     color: #EDF2F4;
 }
@@ -48,6 +46,10 @@ p {
 }
 /* MAIN PAGE STYLINGS */
 
+h1 {
+    color: #61988E;
+}
+
 .mainhead {
     background-color: #3F403F;
 }
@@ -55,10 +57,6 @@ p {
 .mainimage {
     width: 100%;
     max-height: 750px;
-}
-
-.title, h1,h2 {
-    background-color: #3F403F;
 }
 
 .title {
@@ -73,6 +71,8 @@ p {
 }
 
 /* ABOUT PAGE STYLINGS */
+
+
 
 .aboutme {
     width: 100%;
@@ -136,7 +136,7 @@ p {
     justify-content: center;  
 }
 
-.form-box {
+#form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -160,13 +160,29 @@ h4.form-element {
     font-style: oblique;
 }
 
-#submit-button {
+#submit {
     background-color: #61988E;
     color: #EFF1F3;
     border-color: #61988E;
 }
 
-#submit-button:hover {
+#submit:hover {
     background-color: #1c564b;
     border-color: #1c564b;
+}
+
+
+/* submit page */
+
+.submit-page {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.submitted-box {
+    margin-top: 5%;
+}
+h4.submitted-box {
+    color:#3F403F;
 }

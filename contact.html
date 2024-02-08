@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Contact</title>
         <link rel="stylesheet" href="style.css">
-        <script src="script.js" defer></script>
+        <script defer src="script.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -18,7 +18,7 @@
             <a href="contact.html">CONTACT</a>
         </nav>
         <section class="contact-page-one"> 
-                <form action="./success.html" class="form-box">
+                <form id="form">
                     <h2 class="form-element" class="form-title">CONTACT ME</h2><br>
                     <h4 class="form-element" class="form-subtitle">Please submit your information if you </h4><br>
                     <h4 class="form-element" class="form-subtitle">would like to be contacted</h4><br>
@@ -28,7 +28,7 @@
                     <input type="text" id="e-mail" name="E-Mail"><br><br>
                     <label class="form-element" for="comments">Additional Comments</label><br>
                     <textarea id="comments" name="Comments" rows="8" cols="30"></textarea><br><br>
-                    <input type="submit" id="submit-button">
+                    <button type="submit" id="submit">Submit</button>
                 </form>
         </section>
     </body>
