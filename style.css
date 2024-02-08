@@ -125,3 +125,16 @@ p {
     margin-top: 100px;
     float: left;
 }
+
+/* contact page stylings */
+
+.form-box {
+    position: relative;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #E76D83;
+}
+
