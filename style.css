@@ -7,6 +7,7 @@
 
 body {
     background-color: #EDF2F4;
+    width: 100%;
 }
 
 h2 {
@@ -24,7 +25,9 @@ p {
     color: #3F403F;
 }
 
-
+h1 {
+    color: #61988E;
+}
 
 
 /* Nav Bar Stylings */
@@ -36,6 +39,7 @@ nav {
     width: 100%;
     text-align: right;
     z-index: 2;
+    margin-top: 0px;
 }
 
 nav, a {
@@ -61,28 +65,39 @@ nav, a {
 
 /* MAIN PAGE STYLINGS */
 
-h1 {
-    color: #61988E;
+.main-page {
+    display:grid;
+    grid-template:1fr 1fr / 1fr ; 
+    padding-top: 50px;
 }
 
 .mainhead {
-    background-color: #3F403F;
+    margin-top: 50px;
 }
 
 .mainimage {
     width: 100%;
-    max-height: 750px;
+    position: relative;
+    margin-top: -200px;
 }
-
 .title {
-    padding: 5px;
-    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 3;
+    margin-left: 3%;
+    width:fit-content;
+    padding: 10px;
+    background-color: rgba(255,255,255, .2);
+    border-radius: 5%;
 }
 
 .homesection {
-    text-align: center;
-    font-size: 20px;
-    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 50px 0px 50px;
 }
 
 
@@ -91,61 +106,63 @@ h1 {
 
 /* ABOUT PAGE STYLINGS */
 
-
+.about-page {
+    display: flex;
+    justify-content: center;
+    padding: 75px
+}
 
 .aboutme {
-    width: 100%;
-    margin: 30px;
-    padding-top: 45px;
-    height: 100%;
-    color: #3F403F;
-    position: absolute;;
+    display: flex;
+
 }
 
 .imageofme {
-    width: 50%;
-    position: relative;
-    float: left;
-    background-color: none;
-    z-index: 1;
-    max-width: 500px;
-    margin-right: 20px;
+    width: 40%;
+    object-fit: scale-down;
 }
 
 .mybio {
-    position: relative;
-    font-weight: 500;
-    font-size: 20px;
-    width: 80%;
-    padding-top: 20px;
+    padding: 40px;
 }
+
+
+
+
+
 
 /* PORTFOLIO PAGE STYLES */
 
+.portfolio-page {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
 .projectsection {
-    width: 100%;
-    padding: 15px;
-    position: absolute;
+    width: 90%;
 }
 
 .projectimage {
-    float: left;
-    width: 40%;
-    padding: 20px;
-    margin-right: 10px;
+    max-width: 40%;
+    object-fit:scale-down
 }
 
 .projectdescription {
-    height: 100%;
-    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .project {
-    margin-top: 100px;
-    float: left;
+    display: flex;
+    padding: 40px;
 }
 
-
+.projectdescription h3 {
+    padding-left: 30px;
+    padding-bottom: 3%;
+}
 
 
 
