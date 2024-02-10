@@ -8,27 +8,6 @@
 body {
     background-color: #EDF2F4;
 }
-nav {
-    position: fixed;
-    background-color: #E76D83;
-    width: 100%;
-    text-align: right;
-    z-index: 2;
-}
-
-nav, a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-a {
-    text-decoration: none;
-    color: #EFF1F3;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 6px;
-    background-color: #E76D83;
-}
 
 h2 {
     color: #EDF2F4;
@@ -44,6 +23,42 @@ h3 {
 p {
     color: #3F403F;
 }
+
+
+
+
+/* Nav Bar Stylings */
+
+
+nav {
+    position: fixed;
+    background-color: #E76D83;
+    width: 100%;
+    text-align: right;
+    z-index: 2;
+}
+
+nav, a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-element {
+    text-decoration: none;
+    color: #EFF1F3;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 6px;
+    background-color: #E76D83;
+}
+
+.navbar-element:hover {
+    color: #1c564b;
+    font-weight: 900;
+}
+
+
+
 /* MAIN PAGE STYLINGS */
 
 h1 {
@@ -69,6 +84,10 @@ h1 {
     font-size: 20px;
     padding: 30px;
 }
+
+
+
+
 
 /* ABOUT PAGE STYLINGS */
 
@@ -126,6 +145,11 @@ h1 {
     float: left;
 }
 
+
+
+
+
+
 /* contact page stylings */
 
 
@@ -172,7 +196,12 @@ h4.form-element {
 }
 
 
-/* submit page */
+
+
+
+
+
+/* submit page stylings*/
 
 .submit-page {
     display: flex;
