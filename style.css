@@ -11,7 +11,7 @@ body {
 }
 
 h2 {
-    color: #EDF2F4;
+    color:#3F403F;
 }
 
 h3 {
@@ -89,7 +89,7 @@ nav, a {
     margin-left: 3%;
     width:fit-content;
     padding: 10px;
-    background-color: rgba(255,255,255, .2);
+    background-color: #EFF1F3;
     border-radius: 5%;
 }
 
@@ -101,6 +101,58 @@ nav, a {
 }
 
 
+@media only screen and (max-width: 500px){
+ 
+    .main-page {
+        display:grid;
+        grid-template:1fr 1fr / 1fr ; 
+        padding-top: 50px;
+    }
+
+    .mainhead {
+        margin-top: 0px;
+    }
+
+    .mainimage {
+        width: 100%;
+        position: relative;
+        margin-top: -20px;
+    }
+    .title {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        justify-content: left;
+        align-items: start;
+        z-index: 3;
+        margin-left: 5%;
+        width:fit-content;
+        padding: 10px;
+        border-radius: 5%;
+        margin-top: 280px;
+        text-align: left;
+        background-color: rgba(30,30,30,0)
+    } 
+
+    .title h2 {
+        color: #3F403F;
+    }
+
+    .homesection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 20px 33px 0px 33px;
+        margin-top: -50px;
+    }
+    .homesection h3 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
 
 
 
@@ -126,7 +178,35 @@ nav, a {
     padding: 40px;
 }
 
+@media only screen and (max-width: 600px){
+    .about-page {
+        display: flex;
+        justify-content: center;
+        padding: 50px
+    }
 
+    .aboutme {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imageofme {
+        width: 90%;
+        object-fit: scale-down;
+    }
+
+    .mybio {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
 
 
 
@@ -136,7 +216,7 @@ nav, a {
 .portfolio-page {
     display: flex;
     justify-content: center;
-    padding-top: 70px;
+    padding-top: 30px;
 }
 
 .projectsection {
@@ -164,8 +244,35 @@ nav, a {
     padding-bottom: 3%;
 }
 
+@media only screen and (max-width: 800px) {
+    .portfolio-page {
+        
+    }
 
+    .projectsection {
+        width: 100%;
+    }
 
+    .projectimage {
+        max-width: 100%;
+    }
+
+    .projectdescription {
+        margin-left: -20px;
+        padding-right: 5px;
+        padding-top: 15px;
+        padding-bottom: 50px;
+    }
+
+    .project {
+        flex-direction: column;
+    }
+
+    .projectdescription h3 {
+        padding-left: 25px;
+        padding-bottom: 20px;
+    }
+}
 
 /* contact page stylings */
 
