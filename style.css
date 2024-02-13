@@ -100,8 +100,25 @@ nav, a {
     padding: 20px 50px 0px 50px;
 }
 
+@media only screen and (max-width: 700px){
+    .title h1 {
+        font-size: 20px;
+    }
 
-@media only screen and (max-width: 500px){
+    .title h2 {
+        font-size: 16px;
+    }
+
+    .mainimage {
+        margin-top: -140px;
+    }
+}
+
+.homesection {
+    margin-top: 0px
+}
+
+@media only screen and (max-width: 530px){
  
     .main-page {
         display:grid;
@@ -110,14 +127,14 @@ nav, a {
     }
 
     .mainhead {
-        margin-top: 0px;
+        margin-top: 100px;
     }
 
     .mainimage {
         width: 100%;
         position: relative;
-        margin-top: -20px;
     }
+
     .title {
         display: flex;
         flex-direction: column;
@@ -129,13 +146,14 @@ nav, a {
         width:fit-content;
         padding: 10px;
         border-radius: 5%;
-        margin-top: 280px;
+        margin-top: 200px;
         text-align: left;
         background-color: rgba(30,30,30,0)
     } 
 
     .title h2 {
         color: #3F403F;
+        font-size: 22px;
     }
 
     .homesection {
@@ -152,8 +170,10 @@ nav, a {
         padding-right: 20px;
     }
 
+    .title h1 {
+        font-size: 28px;
+    }
 }
-
 
 
 /* ABOUT PAGE STYLINGS */
